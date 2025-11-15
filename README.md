@@ -11,9 +11,9 @@ AgroHub — комплексная цифровая система для фер
 
 | Модуль | Репозиторий |
 |--------|-------------|
-| 🌐 Frontend (React, Mantine, Leaflet, Zustand, SVAR Gantt) | **https://github.com/MissClickRND/agrohub-frontend** |
-| 🛠 Backend (NestJS + PostGIS + QGIS + Keycloak + TypeORM) | **https://github.com/MissClickRND/agrohub-backend** |
-| 📱 Mobile App (Kotlin + Jetpack Compose + OSM) | **https://github.com/bybuss/UMIRHack-7** |
+| 🌐 Frontend | **https://github.com/MissClickRND/agrohub-frontend** |
+| 🛠 Backend | **https://github.com/MissClickRND/agrohub-backend** |
+| 📱 Mobile App  | **https://github.com/bybuss/UMIRHack-7** |
 
 # 🔗 Реализованный проект
 
@@ -41,6 +41,43 @@ AgroHub решает ключевую агрономическую пробле�
 
 Система построена по **сервисной архитектуре**, использует **Docker**, поддерживает **TLS 1.2+**.
 
+---
+
+# 🛠️ Стек
+
+### Frontend
+- TS
+- React
+- ReactQuery
+- MantineUI
+- Zustand
+- Leaflet
+- Motion
+- SVAR Gantt
+
+### Backend
+- TS
+- NestJS
+- PostgreSQL + PostGIS
+- TypeORM
+- QGIS
+- KeyCloak
+- Ollama(mistral)
+
+### Mobile
+- Android Studio
+- Kotlin
+- Jetpack Compose
+- OMS (MapLibre Compose)
+- CleanArchitecture (+ MVI)
+- TypeSafe Navigation
+- Graphs, DataStore
+- Protobuf
+- Dagger Hilt 2
+- GoogleSecrets plugin
+- Lottie animations
+- Room
+- Accomponist
 ---
 
 # 🧩 Основные модули системы
